@@ -1,4 +1,4 @@
 <?php
 include("connect.php");
-$query=mysqli_query();
+$query=mysqli_query($link,"");
 ?>

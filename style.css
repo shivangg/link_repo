@@ -1,0 +1,47 @@
+#leftside
+{
+	float: left;
+	width:	10%;
+	padding: 0% 0% 1% 1%;
+	margin: 2%;
+	border: 2px  #1faffc;
+}
+#main
+{
+	width:	70%;
+	margin: 3% 3% 5% 15%;
+	padding: 0% 2% 2% 2%;
+	border: 2px solid #1faffc;
+}
+#search
+{
+	margin: 0% 0% 7% 62%;
+	border-radius: 7px;
+    border: 2px solid #1faffc;
+    padding: 1%; 
+    width: 15%;
+ }
+ #searchDiv
+ {
+ 	position: fixed;
+ 	margin:	-4.5% 0% 0% 11%;
+ 	width:	100%;	
+ }
+ #theUrl
+ {
+ 	border-radius: 7px;
+    border: 2px solid #1feeff;
+    padding: 1%;
+    width: 100%;
+}
+ h1,h2,p,#viewScope
+ {
+ 	color:	#035598;
+ 	font-family: sans-serif;
+ }
+ .urlFeeds
+ {
+ 	border-radius: 7px;
+    border: 2px solid #118101;
+    padding: 1%;
+ }

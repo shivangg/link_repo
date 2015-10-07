@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Linkn|Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+
+<h1>Dashboard</h1>
+
+<div id="searchDiv" class="top">
+	<form method="get" action="some.php">
+	<input id="search" type="text" placeholder="Search URLs or other users" />
+	</form>
+</div>
+
+<div id="leftside">
+
+	<div id="dp" class="left">
+		<p><img src="dp.jpg" width="100" alt="profile pic" title="Edit/View details" /></p>
+	</div>
+
+	<div id="viewScope" class="left">	<!--For PRIVATE and PUBLIC view -->
+		<form method="GET" action="somephp.php">
+			<input type="radio" name="public" value="public" /> Public <br />
+			<input type="radio" name="private" value="private" /> Private <br />
+		</form>
+	</div>
+
+	<div id="follow" class="left">
+		<p>Follower 5<br />		<!--Value by php-->
+		Following 7</p>
+	</div>
+</div>
+
+
+<div id="main" class="main">
+	<h2>View, share, Explore</h2>
+	<p>Paste your favourite links here to make your customised collection of links. Share your favourite links and explore what your friends shared!</p>
+	<div id="pasteUrl" >
+		<form>
+			<input id="theUrl" type="text" placeholder="Paste link here..."  name="theUrl" />
+			<!--<input type="submit" value="Post Link" name="submit" />				Not using SUBMIT button for search and pasteUrl, will try to use the offocus event with JS to send the query-->
+
+		</form>
+
+	</div>
+	<h2>Links Feed</h2>
+	<!--5 to 6 linkFeed divs follow -->
+	<div class="urlFeeds">
+		<p>Php generated divs of crawled links will populate this space.</p>
+	</div>
+</div>
+
+
+</body>
+</html>
